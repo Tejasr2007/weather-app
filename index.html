@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🌦 Weather Forecast</h1>
+
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter City Name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="weather-card">
+
+            <h2 id="city">Hyderabad</h2>
+
+            <div class="temp" id="temperature">
+                30°C
+            </div>
+
+            <div class="condition" id="condition">
+                Clear Sky
+            </div>
+
+            <div class="details">
+
+                <div class="detail-box">
+                    <h3>Humidity</h3>
+                    <p id="humidity">60%</p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>Wind</h3>
+                    <p id="wind">10 km/h</p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>Pressure</h3>
+                    <p id="pressure">1012 hPa</p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>Feels Like</h3>
+                    <p id="feelsLike">32°C</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h2 class="forecast-title">
+            5 Day Forecast
+        </h2>
+
+        <div class="forecast-container" id="forecastContainer">
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
